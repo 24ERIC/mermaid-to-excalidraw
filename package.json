@@ -9,7 +9,6 @@
   ],
   "type": "module",
   "scripts": {
-    "build": "rimraf -rf ./dist && cross-env tsc -b playground",
     "test:code": "eslint --max-warnings=0 --ext .js,.ts,.tsx .",
     "start": "vite playground",
     "build:playground": "tsc --noEmit --project ./playground/tsconfig.json && vite build playground",
