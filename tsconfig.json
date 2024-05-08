@@ -1,4 +1,12 @@
 {
-  "files": [],
-  "references": [{ "path": "./src" }, { "path": "./playground" }]
+  "compilerOptions": {
+    "outDir": "./dist",
+    "module": "CommonJS",
+    "target": "ESNext",
+    "jsx": "react"
+  },
+  "include": [
+    "**/*.ts",
+    "**/*.tsx"
+  ]
 }
