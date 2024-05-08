@@ -9,9 +9,9 @@
   ],
   "type": "module",
   "scripts": {
+    "build": "tsc --noEmit --project ./playground/tsconfig.json && vite build playground",
     "test:code": "eslint --max-warnings=0 --ext .js,.ts,.tsx .",
     "start": "vite playground",
-    "build:playground": "tsc --noEmit --project ./playground/tsconfig.json && vite build playground",
     "preview": "npm run build:playground && vite preview --outDir ./public"
   },
   "dependencies": {
